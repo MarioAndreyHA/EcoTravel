@@ -104,6 +104,11 @@ textarea {
   margin: 0 auto; 
 }
 
+input{
+  resize: none; 
+  margin: 0 auto; 
+}
+
 .contact-form input, .contact-form textarea {
   width: 100%;
   max-width: 500px; 
