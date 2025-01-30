@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel = "icon" href = "imagenes/Logo.ico">
+    <link rel="stylesheet" href="index.css">
+    <title>EcoTravel</title>
+
+</head>
+<body>
+    <header>
+        <nav class="barra-navegacion" id="barra">
+            <div class="logo">
+                <a href="index.html"> <img src="imagenes/Logo.ico" width="50px"  alt="Logo"> </a>
+            </div>
+            <ul class="enlaces-nav">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="texto-contenedor">
+            <h1>Bienvenido a EcoTravel, tu puerta de entrada a experiencias de viaje únicas y sostenibles</h1>
+            <p>Explora destinos increíbles, conecta con la naturaleza y descubre culturas fascinantes mientras contribuyes a la conservación del medio ambiente. Desde santuarios de mariposas monarca hasta desiertos infinitos, te ofrecemos aventuras que inspiran y respetan el planeta. ¡Empieza tu viaje responsable hoy!</p>
+            </div>
+        </section>
+
+        <section id="servicios" class="seccion servicios">
+            <div class="texto-contenedor">
+            <h2>Viaja con nosotros</h2>
+        </div>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>Conoce las Mariposas Monarcas</h3>
+                    <img src="imagenes/MariposaMonarca.jpg">
+                    <p>Vive una experiencia mágica en los santuarios de las mariposas monarca en México. Descubre cómo millones de estos increíbles insectos transforman los bosques en un espectáculo de color y vida cada invierno. ¡Un viaje único para conectar con la naturaleza!</p>
+                    <div class="más">
+                    <h2>¿Qué incluye?</h2>
+                    <p>Visita a los santuarios de las mariposas monarca</p>
+                    <p>Experiencia de vuelo en globo</p>
+                    <p>Excursión a la reserva natural</p>
+                    <p>Alimentación y alojamiento</p>
+                    <p>Guía especializado</p>
+                    <h4> $7,500 por persona</h4>
+                    
+                </div>
+                    <button onclick="toggleText(this)">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <h3>Experimenta Jalisto y su tequila</h3>
+                    <img src="imagenes/tequila.jpg">
+                    <p>Sumérgete en el corazón de Jalisco, la cuna del tequila. Recorre campos de agave azul, visita destilerías tradicionales y descubre los paisajes vibrantes de esta región icónica de México. ¡Una experiencia llena de sabor, cultura y tradición!</p>
+                    <div class="más">
+                        <h2>¿Qué incluye?</h2>
+                        <p>Recorrido por campos de agave azul y visita a destilerías tradicionales</p>
+                        <p>Degustación de diferentes variedades de tequila (blanco, reposado, añejo)</p>
+                        <p>Visita a pueblos pintorescos como Tequila y Guadalajara</p>
+                        <p>Actividades culturales: talleres de cocina tradicional y música local</p>
+                        <p>Alimentación y alojamiento en haciendas típicas</p>
+                        <p>Guía especializado en cultura y producción de tequila</p>
+                        <h4>$6,900 por persona</h4>
+                        
+                    </div>
+                        <button onclick="toggleText(this)">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <h3>Las ballenas de baja california</h3>
+                    <img src="imagenes/ballena.jpg">
+                    <p>Vive un encuentro inolvidable con las majestuosas ballenas grises en las aguas de Baja California. Navega por la Reserva de la Biosfera El Vizcaíno y observa de cerca a estos gigantes del océano en su hábitat natural. ¡Una experiencia única en la vida!</p>
+                    <div class="más">
+                        <h2>¿Qué incluye?</h2>
+                        <p>Avistamiento de ballenas grises en la Reserva de la Biosfera El Vizcaíno</p>
+                        <p>Navegación en embarcaciones autorizadas con guías expertos</p>
+                        <p>Actividades adicionales: kayak en la laguna y caminatas por la costa</p>
+                        <p>Alimentación y alojamiento en eco-lodges locales</p>
+                        <p>Guía especializado en vida marina y conservación</p>
+                        <h4>$8,200 por persona</h4>
+                    
+                    </div>
+                        <button onclick="toggleText(this)">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <h3>Waterland en la fria Holanda</h3>
+                    <img src="imagenes/waterland.jpg">
+                    <p>Descubre la encantadora región de Waterland, un paraíso acuático en los Países Bajos. Navega por sus canales, visita pintorescos pueblos y maravíllate con los molinos de viento y los paisajes típicos holandeses. ¡Una experiencia tranquila y auténtica en el corazón de Holanda!</p>
+                    <div class="más">
+                        <h2>¿Qué incluye?</h2>
+                        <p>Vuelo redonde desde Mexico</p>
+                        <p>Navegación por los canales y lagos de Waterland</p>
+                        <p>Visita a pueblos icónicos como Volendam, Edam y Monnickendam</p>
+                        <p>Experiencia en una quesería tradicional con degustación de quesos holandeses</p>
+                        <p>Recorrido por el Parque Nacional Waterland (caminata o bicicleta)</p>
+                        <p>Alimentación y alojamiento en posadas locales</p>
+                        <p>Guía especializado en historia y cultura holandesa</p>
+                        <h4>$35,500 por persona</h4>
+                        
+                    </div>
+                        <button onclick="toggleText(this)">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <h3>Un Qatar Vacio</h3>
+                    <img src="imagenes/qatar.jpg">
+                    <p>Adéntrate en el impresionante Rub' Al Khali, el desierto de arena más grande del mundo. Descubre dunas doradas, atardeceres mágicos y vive emocionantes actividades en el desierto. Una experiencia inolvidable, respetando siempre la naturaleza y sus normas.</p>
+                    <div class="más">
+                        <h2>¿Qué incluye?</h2>
+                        <p>Vuelo redonde desde Mexico</p>
+                        <p>Exploración del desierto de Rub' Al Khali en vehículos 4x4</p>
+                        <p>Experiencia de sandboarding en las dunas doradas</p>
+                        <p>Noche en un campamento beduino con cena bajo las estrellas</p>
+                        <p>Actividades culturales: música y danzas tradicionales</p>
+                        <p>Alimentación y alojamiento en campamentos ecológicos</p>
+                        <p>Guía especializado en ecoturismo y cultura beduina</p>
+                        <h4>$60,500 por persona</h4>
+                    </div>
+                        <button onclick="toggleText(this)">Ver más</button>
+                </div>
+            </div>
+            <button class="btn"  onclick="location.href='#barra'">
+                Inicio
+              </button>
+            <button class="btn"  onclick="location.href='contacto.html'">
+                Contactanos
+              </button>
+              
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mario Abrego. Todos los derechos reservados.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

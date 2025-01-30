@@ -1,0 +1,40 @@
+{
+    "name":"EcoTravel",
+    "short_name":"EcoTravel",
+    "start_url":"./index.html",
+    "display":"standalone",
+    "lang":"es",
+    "display_override": ["window-controls-overlay"],
+    "background_color":"#000000",
+    "theme_color":"#000000",
+    "orientation":"portrait",
+    "id":"/index.html",
+
+    "description":"Viaja y disfruta de la naturaleza con nosotros",
+    "icons":[
+        {
+            "src":"./imagenes/LogosManifest/Logo192x192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+        {
+            "src":"./imagenes/LogosManifest/Logo512X512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ],
+    "screenshots":[
+        {
+            "src":"./imagenes/screenshot/Screenshot.png",
+            "sizes":"1279x632",
+            "type":"image/png",
+            "form_factor":"wide"
+        },
+        {
+            "src":"./imagenes/screenshot/Screenshot.png",
+            "sizes":"1279x632",
+            "type":"image/png",
+            "form_factor":"narrow"
+        }
+    ]
+}
